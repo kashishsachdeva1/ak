@@ -439,13 +439,11 @@ nav ul li:nth-child(5).active~.indicator {
         height: 70px;
     }
     .right{
+        margin: 0px;
         position:fixed;
-        top: 37.4rem;
-        bottom:0rem;
-        left: 0rem;
-        right:0rem;
-        width: 100%;
-        margin: 0;
+        top: 92.5vh;
+        bottom:0;
+        width: 98%;
         opacity: 0.9;
         background: linear-gradient(90deg, rgba(55, 55, 55), rgba(40, 40, 40));
         z-index: 1000;
