@@ -441,10 +441,9 @@ nav ul li:nth-child(5).active~.indicator {
     .right{
         margin: 0px;
         position:fixed;
-        top: 92.5vh;
-        bottom:0;
+        top:92vh;
         width: 98%;
-        opacity: 0.9;
+        opacity:0.95;
         background: linear-gradient(90deg, rgba(55, 55, 55), rgba(40, 40, 40));
         z-index: 1000;
     }
