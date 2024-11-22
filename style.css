@@ -440,9 +440,10 @@ nav ul li:nth-child(5).active~.indicator {
     }
     .right{
         position:fixed;
-        top:600px;
-        bottom:0;
-        right:0;
+        top: 37.4rem;
+        bottom:0rem;
+        left: 0rem;
+        right:0rem;
         width: 100%;
         margin: 0;
         opacity: 0.9;
