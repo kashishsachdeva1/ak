@@ -418,9 +418,6 @@ nav ul li:nth-child(5).active~.indicator {
     {
         margin:0px;
     }
-    /* nav{
-        position: relative;
-    }; */
     nav ul{
         position: static;
     }
