@@ -11,12 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 
 <body>
     <header>
+        <!-- /*-----------------------------------*\
+                #NAVBAR
+        \*-----------------------------------*/ -->
         <nav>
             <div class="left">
                 <img src="images/profile.jpg" alt="Profile_pic">
@@ -24,35 +27,35 @@
             <div class="right">
                 <ul>
                     <li class="list active">
-                        <a href="#">
+                        <a href="#Home">
                             <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
                             <span class="text">Home</span>
                             <span class="circle"></span>
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#">
+                        <a href="#Resume">
                             <span class="icon"><ion-icon name="document-attach-outline"></ion-icon></span>
                             <span class="text">Resume</span>
                             <span class="circle"></span>
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#">
+                        <a href="#Project">
                             <span class="icon"><ion-icon name="bulb-outline"></ion-icon></span>
                             <span class="text">Project</span>
                             <span class="circle"></span>
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#">
+                        <a href="#Certs">
                             <span class="icon"><ion-icon name="ribbon-outline"></ion-icon></span>
                             <span class="text">Proofs</span>
                             <span class="circle"></span>
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#">
+                        <a href="#Contact">
                             <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
                             <span class="text">Contact</span>
                             <span class="circle"></span>
@@ -64,18 +67,22 @@
             </div>
             <div class="only_mobile">
                 <ul>
-                    <li class="last box_s"><a href="https://drive.google.com/file/d/1cDlDpnOAS6VuM7xb5Cqlxyk-nx_C3dPE/view?usp=drivesdk">
-                        <ion-icon name="download-outline"></ion-icon></a></li>
-                        <p class="text">Resume</p>
-                    
+                    <li class="last box_s"><a
+                            href="https://drive.google.com/file/d/1cDlDpnOAS6VuM7xb5Cqlxyk-nx_C3dPE/view?usp=drivesdk">
+                            <ion-icon name="download-outline"></ion-icon></a></li>
+                    <p class="text">Resume</p>
+
                 </ul>
-                
+
             </div>
         </nav>
 
     </header>
     <main>
-        <div class="front_box">
+        <!-- /*-----------------------------------*\
+                # Ist BOX
+        \*-----------------------------------*/ -->
+        <div id="Home" class="front_box">
             <section class="firstsection">
                 <div class="leftSection">
                     <p><span class="top">Welcome to my world</span></p>
@@ -94,7 +101,8 @@
                                         target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
                                 <li class="box_s"><a href="https://www.linkedin.com/in/kashish-sachdeva-252410229/"
                                         target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                                <li class="box_s"><a href="https://www.instagram.com/kashish3989/"><ion-icon name="logo-instagram"></ion-icon></ion-icon></a></li>
+                                <li class="box_s"><a href="https://www.instagram.com/kashish3989/"
+                                        target="_blank"><ion-icon name="logo-instagram"></ion-icon></ion-icon></a></li>
                                 <li class="box_s"><a href="https://leetcode.com/kashish_sachdeva/" target="_blank">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" height="1em" width="1em"
@@ -105,12 +113,14 @@
                                             </path>
                                         </svg></a>
                                 </li>
-                                
+
                             </ul>
-                            
+
                             <ul>
-                                <li class="last box_s"><a href="https://drive.google.com/file/d/1cDlDpnOAS6VuM7xb5Cqlxyk-nx_C3dPE/view?usp=drivesdk">
-                                    <ion-icon name="download-outline"></ion-icon></a></li>
+                                <li class="last box_s"><a
+                                        href="https://drive.google.com/file/d/1cDlDpnOAS6VuM7xb5Cqlxyk-nx_C3dPE/view?usp=drivesdk"
+                                        target="_blank">
+                                        <ion-icon name="download-outline"></ion-icon></a></li>
                             </ul>
                         </div>
                         <div class="resume">
@@ -124,11 +134,325 @@
                 </div>
             </section>
         </div>
-        <div class="front_box">
-            <section>
-                <div></div>
-                <div></div>
+        <!-- /*-----------------------------------*\
+                    # IIst BOX
+        \*-----------------------------------*/ -->
+        <div id="Resume" class="front_box">
+            <div class="design">
+                <span class="top yellow">Professional Summary</span>
+                <span class="top">
+                    My resume
+                    <a href="https://drive.google.com/file/d/1cDlDpnOAS6VuM7xb5Cqlxyk-nx_C3dPE/view?usp=drivesdk"
+                        target="_blank">
+                        <ion-icon name="download-outline"></ion-icon>
+                    </a>
+                </span>
+            </div>
+            <div class="filter_button">
+                <ul>
+                    <li class=" fillter actived">education</li>
+                    <li id="skill" class=" fillter">professional skills</li>
+                    <li class="fillter">experience</li>
+                    <li class="fillter">achievements</li>
+                </ul>
+            </div class="fillter_fxn">
+            <section class="education">
+                <header>
+                    <h3 class="yellow">2019 - 2025</h3>
+                </header>
+                <div class="content">
+                    <div class="container">
+                        <h3 class="content_title">Bachelor's Degree</h3>
+                        <div class="box_s box">
+                            <span class="yellow">2021 - 2025</span>
+                            <p class="content_text">
+                            <h4>Graphic Era Hill University, Dehradun</h4>
+                                B.Tech in Computer Science and Engineering | <span class="yellow">CGPA : 8.75/10</span><BR>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h3 class="content_title">Intermediate School<br></h3>
+                        <div class="box_s box">
+                            <span class="yellow">2020 - 2021</span>
+                            <p class="content_text">
+                            <h4>St Ann's Senior Secondary School, Roorkee</h4>
+                            PCM + Computer Science | <span class="yellow">Percentage : 81.8%</span><BR>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h3 class="content_title">High School</h3>
+                        <div class="box_s box">
+                            <span class="yellow">2018 - 2019</span>
+                            <p class="content_text">
+                            <h4>St Ann's Senior Secondary School, Roorkee</h4>
+                            Core | <span class="yellow">Percentage : 89.33%</span><BR>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
+            <section class="education skill">
+                <header>
+                    <h3 class="yellow">FEATURES</h3>
+                </header>
+                <div class="skill_S">
+                    <div class="technical">
+                        <h1>TECHNICAL</h1>
+                        <li><h3>C++</h3><span class="bar"><span class="Cpp"></span><span class="percent"></span></span></li>
+                        <li><h3>C Language</h3><span class="bar"><span class="C_Language"></span><span class="percent"></span></span></li>
+                        <li><h3>Python</h3><span class="bar"><span class="Python"></span><span class="percent"></span></span></li>
+                        <li><h3>Java</h3><span class="bar"><span class="Java"></span><span class="percent"></span></span></li>
+                        <li><h3>MySQL</h3><span class="bar"><span class="MySQL"></span><span class="percent"></span></span></li>
+                        <li><h3>HTML</h3><span class="bar"><span class="HTML"></span><span class="percent"></span></span></li>
+                        <li><h3>CSS</h3><span class="bar"><span class="CSS"></span><span class="percent"></span></span></li>
+                        <li><h3>JavaScript</h3><span class="bar"><span class="JavaScript"></span><span class="percent"></span></span></li>
+                        <li><h3>Machine_Learning</h3><span class="bar"><span class="Machine_Learning"></span><span class="percent"></span></span></li>
+                        <li><h3>Data_Structures_and_Algorithms</h3><span class="bar"><span class="DSA"></span><span class="percent"></span></span></li>
+                    </div>
+                    <div class="non_technical">
+                        <h1>NON - TECHNICAL</h1>
+                        <li><h3>Communication</h3><span class="bar"><span class="Communication"></span><span class="percent"></span></span></li>
+                        <li><h3>Time_Management</h3><span class="bar"><span class="Time_Management"></span><span class="percent"></span></span></li>
+                        <li><h3>Cooperate</h3><span class="bar"><span class="Cooperate"></span><span class="percent"></span></span></li>
+                        <li><h3>Adaptability</h3><span class="bar"><span class="Adaptability"></span><span class="percent"></span></span></li>
+                        <li><h3>Problem_solving</h3><span class="bar"><span class="Problem_solving"></span><span class="percent"></span></span></li>
+                        <li><h3>Leadership</h3><span class="bar"><span class="Leadership"></span><span class="percent"></span></span></li>
+                        <li><h3>Story_Telling</h3><span class="bar"><span class="Story_Telling"></span><span class="percent"></span></span></li>
+                        <li><h3>Collaboration</h3><span class="bar"><span class="Collaboration"></span><span class="percent"></span></span></li>
+                        <li><h3>Creativity</h3><span class="bar"><span class="Creativity"></span><span class="percent"></span></span></li>
+                        <li><h3>Prioritization</h3><span class="bar"><span class="Prioritization"></span><span class="percent"></span></span></li>
+                    </div>
+                </div>  
+            </section>
+            <section class="education expirence">
+                <header>
+                    <h3 class="yellow">ALL ABOUT ME</h3>
+                </header>
+                <div class="content">
+                    <div class="container">
+                        <h3 class="content_title">drDO INTERN</h3>
+                        <div class="box_s box">
+                            <span class="yellow">2021 - 2025</span>
+                            <p class="content_text">
+                            <h4>Graphic Era Hill University, Dehradun</h4>
+                                B.Tech in Computer Science and Engineering | <span class="yellow">CGPA : 8.75/10</span><BR>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="education expirence">
+                <header>
+                    <h3 class="yellow">ALL ABOUT ME</h3>
+                </header>
+                <div class="content">
+                    <div class="container">
+                        <h3 class="content_title">drDO INTERN</h3>
+                        <div class="box_s box">
+                            <span class="yellow">2021 - 2025</span>
+                            <p class="content_text">
+                            <h4>Graphic Era Hill University, Dehradun</h4>
+                                B.Tech in Computer Science and Engineering | <span class="yellow">CGPA : 8.75/10</span><BR>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /*-----------------------------------*\
+                    # IIIrd BOX
+        \*-----------------------------------*/ -->
+        <div id="Project" class="front_box">
+            <div class="design">
+                <span class="top yellow">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
+                <span class="top">
+                    My projects
+                </span>
+                <div class="card-container">
+                    <div class="card box_s">
+                        <div class="img-container"><img src="images/icon.png" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                            <div class="btns">
+                            <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+        </div>
+        <!-- /*-----------------------------------*\
+                    # IVth BOX
+        \*-----------------------------------*/ -->
+        <div id="Certs" class="front_box">
+            <div class="design">
+                <span class="top yellow">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
+                <span class="top">
+                    My projects
+                </span>
+                <div class="card-container">
+                    <div class="card box_s">
+                        <div class="img-container"><img src="images/icon.png" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                            <div class="btns">
+                            <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card box_s">
+                        <div class="img-container"><img src="" alt=""></div>
+                        <div class="card-content">
+                            <h3 class="yellow">Card number</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates fugiat quo eum accusantium, sit,
+                                commodi consequuntur libero veniam reiciendis deserunt neque explicabo repellendus expedita
+                                doloribus perspiciatis dolorem doloremque similique magni.</p>
+                                <div class="btns">
+                                    <a href="" class="btn"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="" class="btn"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+
+        </div>
+        <!-- /*-----------------------------------*\
+                    # Vth BOX
+        \*-----------------------------------*/ -->
+        <div id="Contact" class="front_box">
         </div>
     </main>
     <script src="script.js"></script>
@@ -139,9 +463,9 @@
         var typed = new Typed('#element', {
             strings: ['Machine Learning Engineer.', 'DSA Student.', 'Computer Vision Engineer.', 'ML Research Scientist.', 'Web Developer.'],
             typeSpeed: 80,
-            loop:true,
-            backSpeed: 50, 
-            backDelay: 500,  
+            loop: true,
+            backSpeed: 50,
+            backDelay: 500,
             startDelay: 1000
         });
     </script>
